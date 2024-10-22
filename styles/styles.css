@@ -1,0 +1,92 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-image: url('https://marketplace.canva.com/EAF94JoFhlk/1/0/1600w/canva-colorful-pastel-flower-illustration-desktop-wallpaper-GyLQ4rd9Hig.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+    color: #333;
+}
+
+footer {
+    position:static;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ddd;
+}
+
+
+.container {
+    margin-top: 20px;
+}
+
+#portrait {
+    border-radius: 25%;  
+    margin-bottom: 20px;
+    width: auto; /* Adjust the width to make the portrait smaller */
+    height: 300px; /* Maintain aspect ratio */
+}
+
+#welcome {
+    font-size: 250%;
+    margin-bottom: 10px;
+    text-shadow: 3px 3px rgb(231, 116, 202);
+
+}
+
+
+.profile-info {
+    background-color: #bcd5f3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile-info p {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.profile-info p:first-child {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.link-image {
+    max-width: 50px; 
+    height: auto;
+}
+
+
+
+#projecticons {
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
